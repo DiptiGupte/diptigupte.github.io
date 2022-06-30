@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato:wght@300&display=swap');
+@import url('https://www.w3schools.com/w3css/4/w3.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #D4E7F6;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    clear:both;
+    overflow:auto;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+li {
+    float: right;
+    display: inline-block;
+}
+
+li a {
+    color: #274C77;
+    text-align: center;
+    vertical-align: middle;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+.index {
+    float: left;
+    color: #6096BA;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+.header {
+    height: 100%;
+    width: 100%;
+    background-color: #A3CEF1;
+    background-size: cover;  
+    padding-top: 15vw;
+    padding-bottom: 18vw;
+    position: relative;
+}
+
+.header h1, h2, h3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Lato', sans-serif;
+    color: #274C77;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 6em;
+    font-weight: bolder;
+}
+
+.header h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header h3{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+
+
+/* index.html */
+.projects {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.projects h4{
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 6%;
+    font-family: 'Lato', sans-serif;
+    color: #274C77;
+    padding-bottom: 20px;
+}
+
+.projects img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 80%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #D4E7F6;
+    margin-left: 10%;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .projText {
+    color: #274C77;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+
+.w3-display-container {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+/* about.html */
+.aboutHeader {
+    padding-left: 10%;
+    padding-right: 4%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.about h4{
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 6%;
+    font-family: 'Lato', sans-serif;
+    color: #274C77;
+}
+
+.about p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    margin-left: 6%;
+    margin-right: 6%;
+    color: #102134;
+}
+
+p.indent {
+    text-indent: 1.8em;
+}
+
+.aboutHeader img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* quarmate.html */
+.projectHeader {
+    height: 100%;
+    width: 100%;
+    background-color: #A3CEF1;
+    background-size: cover;  
+    padding-top: 5vw;
+    padding-bottom: 4vw;
+    position: relative;
+}
+
+.projectHeader h1, h2, h3 {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Lato', sans-serif;
+    color: #274C77;
+    text-align: left;
+}
+
+.projectHeader h1{
+    font-size: 6em;
+    font-weight: bolder;
+}
+
+.projectHeader h2{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.projectHeader h3{
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.projectHeader p{
+    font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
+    color: #102134;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+table, th, td {
+    border: 1px solid #A3CEF1;
+    border-collapse: collapse;
+    margin-left: 6%;
+}
+
+p.doubleIndent {
+    text-indent: 3.6em;
+}
+
+.prototype {
+    margin-left: 3%;
+}
+
+.scenario {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.bolded { 
+    font-weight: bolder; 
+}
+
+
+/*scuConnect.html*/
+.about h6{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    margin-left: 6%;
+    margin-right: 6%;
+    color: #274C77;
+}
+
+p.shifted {
+    margin-left: 3.9em;
+}
+
+.outline img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
