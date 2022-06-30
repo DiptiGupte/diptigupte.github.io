@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Quarmate</title>
+        <link rel="stylesheet" href="../style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="index">
+                <li><a href="../index.html">Dipti Gupte</a></li>
+            </div>
+                <ul>
+                    <li><a href="../Gupte_Dipti_Resume.pdf">Resume</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../index.html#proj">Projects</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </ul>
+        </div>
+        <div class="projectHeader">
+            <div class="w3-row-padding">
+                <div class="w3-half l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <h1>Quar<span class="typing"></span>
+                            <script src="../typed.js"></script>
+                            <script>
+                                var typed = new Typed('.typing', {
+                                    strings: [
+                                        "mate",
+                                    ],
+                                    typeSpeed: 100,
+                                    backspeed: 500,
+                                    backDelay: 1800,
+                                    loop: true
+                                });
+                            </script>
+                        </h1>
+                        <br>
+                        <p>For <span class="bolded">many college students</span>, a huge part of their lives include meeting up with friends and <span class="bolded">living on their own for the first time</span>. Keeping a tidy home while living with other young
+                            adults for the first time without parental guidance is a feat in itself. <span class="bolded">Add the pandemic</span> and the concerns relating to that to the mix, and it's clear that <span class="bolded">having a helping hand is beneficial
+                            for a happy home life</span>. Quarmate is the helping hand that these college students are looking for.
+                        </p>
+                    </div>
+                </div>
+                <div class="w3-half l3 m6 w3-margin-bottom">
+                    <div class="w3-display-container">
+                        <h3>Context</h3>
+                        <p>Quarmate is an app created for college roommates to keep track of each other and visi tors to keep everyone protected during the pandemic.</p>
+                        <br>
+                        <h3>Duration</h3>
+                        <p>10 weeks</p>
+                        <br>
+                        <h3>Tools & Languages</h3>
+                        <p>Figma, Visual Studio Code, React Native</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="w3-row-padding">
+                <div class="w3-display-container">
+                    <h4>Initial Concept</h4>
+                    <p>The original idea was to create an <span class="bolded">app that kept track of when
+                        common spaces were used and disinfected</span>. The app would also
+                        keep track of a guest list, so that users could see who and when
+                        their roommates had visitors.
+                    </p>
+                    <br>
+                    <h4>Interviews</h4>
+                    <p><span class="bolded">Our main goal in the interview process was to decide whether we wanted to pursue contact-tracing or cleaning functionality.</span> To conduct
+                        interviews, our team split into groups of two, with one primary interviewer and one secondary interviewer/scribe. I participated in two
+                        interviews so I could try out the role of both primary and secondary interviewer. We went into the interviews with two qualifying questions,
+                        four potential follow-up questions, and eight topics that we wanted to try to bring up if it came about naturally during our time. After the
+                        interview, the primary and secondary interviewer would do a progress review to go over the notes and add any important information. After the
+                        whole group completed all the interviews,we got together to share our individual findings and synthesize our data into behavioral variables
+                        and demographic variables. <span class="bolded">We found that most of our interviewees already had plans in place for cleaning and few had set ground rules for
+                        hosting guests in their living spaces.</span> They also had no plan if a housemate or visitor tested positive for COVID.
+                    </p>
+                    <br>
+                    <h4>Personas, Scenarios, & User Requirements</h4>
+                    <p><span class="bolded">Using the information we got from the interviews and behavioral and demographic variables, the next step for our class was to create a primary
+                        persona and a secondary persona and create a scenario and user requirements for each.</span> I worked with another teammate to create these
+                        assignments for the primary persona, Emma Somers.We first worked together to decide how informed Emma is on COVID, quarantining and
+                        the cleaning and visitor rules within her house. Then my partner and I split up the remaining tasks with me using the scenario that my partner
+                        would create and extracting the corresponding user requi rements. <span class="bolded">Included below is a snippet of the user requirements, along with the
+                        scenario it came from.</span>
+                    </p>
+                    <br>
+                    <table style="width:88%">
+                        <tr>
+                          <td style="width:50%"><p class="scenario">Scenario</p></td>
+                          <td><p class="scenario">User Requirements</p></td> 
+                        </tr>
+                        <tr>
+                            <td><p class="scenario">When she first opens the app, Emma creates a profile for herself. Emma is the kind of person to be checking the medical numbers on the regular and intends to
+                                test herself as often as necessary in the coming months, so it's a relief to see how mutable this setting in the app is! Since she's been tested recently and
+                                received a negative result, Quarmate lets Emma know she's all cleared from the need to quarantine.
+                            </p></td>
+                          <td>
+                            <p>- Ability to create profile</p>
+                            <p>- Ability to check medical info and numbers</p>
+                            <p>- Ability to monitor COVID testing and quarantine protocols</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><p class="scenario">Once she's set her profile pic and is satisfied with her personalized app theme, she chooses to create a "new residence" profile, lovingly naming it the "Blue
+                                Mansion." She then invites the rest of the gals to join the existing housing profile.
+                            </p></td>
+                          <td>
+                            <p>- Ability to personalize user profile</p>
+                            <p>- Ability to create and name home profile</p>
+                            <p>- Ability invite others to join home profile</p>
+                          </td>
+                        </tr>
+                        <tr>
+                            <td><p class="scenario">On the next screen, Emma begins to "construct the house", or add rooms, like the common room/ living room, kitchen, dining room, two bathrooms, and the five
+                                bedrooms in the house. For each room, she adds those who should have access to the space, i.e. only herself to her own bedroom, and sets the current status for
+                                cleanliness. Particularly noting how Claire L. had forgotten to wipe surfaces in the dining room for the past few days, Emma sets the status to "needs cleaning"
+                                and flags her profile for responsibility.
+                            </p></td>
+                            <td>
+                              <p>- Ability to personalize home profile</p>
+                              <p>- Ability to assign/place users to different parts of home profile</p>
+                              <p>- Ability to enter status of room</p>
+                              <p>- Ability to enter tasks/chores and assign (manually or through app) to users</p>
+                            </td>
+                          </tr>
+                      </table>
+                      <br>
+                      <h4>System Requirements</h4>
+                    <p><span class="bolded">From the user requirements, I created the system requirements that explained what we wanted users to accomplish within our app.</span></p>
+                    <br>
+                    <table style="width:88%">
+                        <tr>
+                            <td>
+                                <p>1. User profile</p>
+                                <p class="indent">A. The user should be about to create a user profile</p>
+                                <p class="doubleIndent">1. Specify name,whether or not they have been tested and test results</p>
+                                <p class="doubleIndent">2. Additional option to add a photo</p>
+                                <br>
+                                <p>2. Home profile</p>
+                                <p class="indent">A. Users should be able to create a home profile</p>
+                                <p class="doubleIndent">1. Add/label rooms to the home database, and specify which housemates use that room</p>
+                                <p class="indent">B. Users should be able to interact with existing home profiles</p>
+                                <p class="doubleIndent">1. Invite other user profiles to home profile you have created or search for home profile of existing users</p>
+                                <p class="indent">C. Users should be able to edit the home profile</p>
+                                <p class="doubleIndent">1. Add/edit rooms assignments after initial setup</p>
+                                <p class="doubleIndent">2. Mark as clean or in need of cleaning</p>
+                                <p class="doubleIndent">3. Mark who is in the room at a given time</p>
+                                <br>
+                                <p>3. Interaction</p>
+                                <p class="indent">A. Users should be able to interact with other users</p>
+                                <p class="doubleIndent">1. Message users in same home profile</p>
+                                <p class="doubleIndent">2. Ask other users if you can bring guests over and have roommates approve or disapprove</p>
+                                <p class="doubleIndent">3. Invite users to your home profile (see 2c)</p>
+                                <p class="indent">B. Users should be able to interact wi th home profile (see 2b)</p>
+                                <p class="doubleIndent">1. Invite others to join home profile (see 2b)</p>
+                                <p class="doubleIndent">2. Assign/place users to individual rooms</p>
+                                <p class="doubleIndent">3. Enter tasks/chores and assign to users</p>
+                                <p class="doubleIndent">4. Notify roomates what room their guests will be in</p>
+                                <p class="doubleIndent">5. Update and track user & guest room movement status</p>
+                                <br>
+                                <p>4. Medical</p>
+                                <p class="indent">A. Check/edit their own COVID-19 testing status, symptom presentation</p>
+                                <p class="indent">B. Monitor COVID testing status and symptom presentation of housemates, guests</p>
+                                <br>
+                                <p>5. Log</p>
+                                <p class="indent">A. Ability to end visit and save log of what rooms they stayed in</p>
+                                <p class="indent">B. Automatic removal of visi tor log after 14 days</p>
+                                <br>
+                            </td> 
+                        </tr>
+                    </table>
+                    <br>
+                    <h4>Implementation</h4>
+                    <p>I worked with another teammate to write a design doc for a more detailed explanation of what we wanted our app to do and each screen we
+                        planned on creating, using the system requirements as a reference. After that the team created an implementation plan to assign ourselves
+                        roles and create a timeline of what we planned on completing for the next few weeks to have a functioning app to demo during the final week
+                        of the quarter. <span class="bolded">I choose to work on the frontend implementation, with the first task being to create a high-fidelity prototype on Figma.</span>
+                    </p>
+                    <br>
+                    <div class="w3-row-padding prototype">
+                        <div class="w3-third l3 m6 w3-margin-bottom">
+                            <div class="w3-display-container">
+                                <h4>High-Fidelity Prototype</h4>
+                                <p>Our final project had three screens; the home profile, the user profile, and the visitor log. <span class="bolded">I was in charge of designing and coding the
+                                    frontend for the home profile</span>,which stores a collection of housemates, a collection of rooms, a master list of chores with the person
+                                    each item is assigned to, and a link for the user to send their roommates a request to have a visitor.
+                                </p>
+                                <br>
+                                <h4>Lessons Learned</h4>
+                                <p>From this project, I learned how to take the quantitative and qualitative data gained from the interviews, personas, scenarios, and others
+                                    to design and code the minimum viable product. For the next iteration of this app, I would add a vaccination status to the profiles
+                                    of the users and add a contact tracing feature for roommates and guests.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="w3-third l3 m6 w3-margin-bottom">
+                            <div class="w3-display-container">
+                                <img src="../images/quarmate1.png" alt="proj1" style="width:80%">
+                            </div>
+                        </div>
+                        <div class="w3-third l3 m6 w3-margin-bottom">
+                            <div class="w3-display-container">
+                                <img src="../images/quarmate2.png" alt="proj1" style="width:80%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
