@@ -369,3 +369,10 @@ p.shifted {
     display: block;
     margin: auto;
   }
+
+  /*hci final report*/
+  .pdf-container {
+      display: flex;
+      justify-content: center;   /* centers horizontally */
+      margin-top: 20px;
+    }
